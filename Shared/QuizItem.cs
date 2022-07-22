@@ -7,5 +7,8 @@ public class QuizItem
     public int AnswerIndex { get; set; }
     public int Score { get; set; }
 
-    
+    public QuizItem()
+    {
+        Choices = new List<string>();
+    }
 }
