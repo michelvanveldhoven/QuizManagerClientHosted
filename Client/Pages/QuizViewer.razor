@@ -3,6 +3,7 @@
 @page "/quizViewer"
 @using QuizManagerClientHosted.Shared
 @inject HttpClient Http
+@attribute [Authorize]
 
 <h1>Take your quiz!</h1>
 <p>Your current score is @currentScore</p>
