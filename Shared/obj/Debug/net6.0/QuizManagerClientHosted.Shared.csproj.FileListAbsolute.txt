@@ -1,0 +1,12 @@
+D:\Development\blazor\QuizManagerClientHosted\Shared\bin\Debug\net6.0\QuizManagerClientHosted.Shared.deps.json
+D:\Development\blazor\QuizManagerClientHosted\Shared\bin\Debug\net6.0\QuizManagerClientHosted.Shared.dll
+D:\Development\blazor\QuizManagerClientHosted\Shared\bin\Debug\net6.0\QuizManagerClientHosted.Shared.pdb
+D:\Development\blazor\QuizManagerClientHosted\Shared\obj\Debug\net6.0\QuizManagerClientHosted.Shared.csproj.AssemblyReference.cache
+D:\Development\blazor\QuizManagerClientHosted\Shared\obj\Debug\net6.0\QuizManagerClientHosted.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\blazor\QuizManagerClientHosted\Shared\obj\Debug\net6.0\QuizManagerClientHosted.Shared.AssemblyInfoInputs.cache
+D:\Development\blazor\QuizManagerClientHosted\Shared\obj\Debug\net6.0\QuizManagerClientHosted.Shared.AssemblyInfo.cs
+D:\Development\blazor\QuizManagerClientHosted\Shared\obj\Debug\net6.0\QuizManagerClientHosted.Shared.csproj.CoreCompileInputs.cache
+D:\Development\blazor\QuizManagerClientHosted\Shared\obj\Debug\net6.0\QuizManagerClientHosted.Shared.dll
+D:\Development\blazor\QuizManagerClientHosted\Shared\obj\Debug\net6.0\refint\QuizManagerClientHosted.Shared.dll
+D:\Development\blazor\QuizManagerClientHosted\Shared\obj\Debug\net6.0\QuizManagerClientHosted.Shared.pdb
+D:\Development\blazor\QuizManagerClientHosted\Shared\obj\Debug\net6.0\ref\QuizManagerClientHosted.Shared.dll
