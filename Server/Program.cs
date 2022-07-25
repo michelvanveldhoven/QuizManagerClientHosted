@@ -14,10 +14,10 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, 
                               options =>
 {
-    options.Authority = $"https://{builder.Configuration["Autho:Domain"]}";
+    options.Authority = $"https://{builder.Configuration["Auth0:Domain"]}";
     options.TokenValidationParameters = new TokenValidationParameters
     {
-        ValidAudience = builder.Configuration["Auth):Audience"],
+        ValidAudience = builder.Configuration["Auth0:Audience"],
         ValidIssuer = $"https://{builder.Configuration["Auth0:Domain"]}"
 
     };

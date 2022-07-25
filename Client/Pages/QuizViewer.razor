@@ -1,6 +1,7 @@
 // Client/Pages/QuizViewer.cs
 
 @page "/quizViewer"
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
 @using QuizManagerClientHosted.Shared
 @inject HttpClient Http
 @attribute [Authorize]
@@ -44,14 +45,26 @@ else
 }
 
 @code {
-  List<QuizItem> quiz;
-  List<int> quizScores = new List<int>();
-  int currentScore = 0;
+    List<QuizItem> quiz;
+    List<int> quizScores = new List<int>();
+    int currentScore = 0;
 
-  protected override async Task OnInitializedAsync()
-  {
-    quiz = await Http.GetFromJsonAsync<List<QuizItem>>("Quiz");
-  }
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            quiz = await Http.GetFromJsonAsync<List<QuizItem>>("Quiz");
+        }
+        catch (AccessTokenNotAvailableException ex)
+        {
+            ex.Redirect();
+
+        }
+        catch (Exception ex)
+        {
+            
+        }
+    }
 
   void UpdateScore(int chosenAnswerIndex, int quizIndex)
   {
