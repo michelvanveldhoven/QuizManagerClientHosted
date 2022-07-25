@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using QuizManagerClientHosted.Shared;
 
@@ -5,6 +6,7 @@ namespace QuizManagerClientHosted.Server.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+[Authorize]
 public class QuizController  : ControllerBase
 {
     private static readonly List<QuizItem> Quiz = new List<QuizItem> {
